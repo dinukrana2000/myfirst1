@@ -10,10 +10,12 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
+		System.out.println("hello world");
 	}
-@Bean
-	public ModelMapper modelMapper(){
+
+	@Bean
+	public ModelMapper modelMapper() {
 		return new ModelMapper();
 
-}
+	}
 }
